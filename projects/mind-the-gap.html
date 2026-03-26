@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mind the Gap | Abrisam Hafiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --black: #111111; --dark: #2a2a2a; --mid: #666666; --light: #aaaaaa; --rule: #e0e0e0; --bg: #ffffff; --accent: #1a3a5c; --accent-light: #e8eef4; }
+    body { font-family: 'Source Sans 3', sans-serif; background: var(--bg); color: var(--black); font-size: 16px; line-height: 1.6; }
+    nav { position: sticky; top: 0; z-index: 100; background: #fff; border-bottom: 1px solid var(--rule); padding: 0 48px; display: flex; align-items: center; justify-content: space-between; height: 60px; }
+    .nav-brand { font-family: 'Playfair Display', serif; font-size: 1.05rem; font-weight: 600; color: var(--black); text-decoration: none; }
+    .nav-back { font-size: 0.82rem; font-weight: 500; color: var(--mid); text-decoration: none; letter-spacing: 0.06em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-back:hover { color: var(--accent); }
+    .project-header { max-width: 860px; margin: 0 auto; padding: 64px 48px 48px; border-bottom: 1px solid var(--rule); }
+    .project-tag { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 16px; }
+    .project-header h1 { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; line-height: 1.15; color: var(--black); margin-bottom: 20px; }
+    .project-header p.lead { font-size: 1.05rem; color: var(--mid); max-width: 600px; font-weight: 300; line-height: 1.8; margin-bottom: 32px; }
+    .project-meta { display: flex; gap: 40px; flex-wrap: wrap; }
+    .meta-item dt { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--light); margin-bottom: 4px; }
+    .meta-item dd { font-size: 0.9rem; color: var(--dark); font-weight: 500; }
+    .content { max-width: 860px; margin: 0 auto; padding: 56px 48px; }
+    .content h2 { font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 600; color: var(--black); margin-bottom: 16px; margin-top: 48px; }
+    .content h2:first-child { margin-top: 0; }
+    .content p { font-size: 0.95rem; color: var(--mid); line-height: 1.8; margin-bottom: 16px; }
+    .content ul { list-style: none; padding: 0; margin-bottom: 24px; }
+    .content ul li { font-size: 0.93rem; color: var(--mid); line-height: 1.75; padding-left: 20px; position: relative; margin-bottom: 6px; }
+    .content ul li::before { content: '—'; position: absolute; left: 0; color: var(--rule); }
+    .highlight-box { background: var(--accent-light); border-left: 3px solid var(--accent); padding: 20px 24px; border-radius: 0 4px 4px 0; margin: 32px 0; }
+    .highlight-box p { color: var(--accent); font-weight: 500; margin: 0; font-size: 1rem; }
+    footer { border-top: 1px solid var(--rule); padding: 32px 48px; text-align: center; }
+    footer p { font-size: 0.82rem; color: var(--light); letter-spacing: 0.04em; }
+    @media (max-width: 640px) { nav, .project-header, .content, footer { padding-left: 24px; padding-right: 24px; } }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">Abrisam Hafiz</a>
+  <a href="../index.html" class="nav-back">← All Projects</a>
+</nav>
+
+<div class="project-header">
+  <p class="project-tag">Competition — 🏆 1st Place</p>
+  <h1>Mind the Gap —<br>Boarding Aid System</h1>
+  <p class="lead">Led a team to design a largely passive boarding aid system to bridge excessive platform–train gaps for passengers with reduced mobility. Awarded 1st place for creativity and prototype quality.</p>
+  <dl class="project-meta">
+    <div class="meta-item"><dt>Type</dt><dd>Design Competition</dd></div>
+    <div class="meta-item"><dt>Role</dt><dd>Team Leader</dd></div>
+    <div class="meta-item"><dt>Methods</dt><dd>3D Printing, Prototyping</dd></div>
+    <div class="meta-item"><dt>Result</dt><dd>1st Place</dd></div>
+  </dl>
+</div>
+
+<div class="content">
+
+  <h2>Problem Statement</h2>
+  <p>Platform–train gaps present a significant accessibility barrier for passengers with reduced mobility, including wheelchair users, elderly passengers, and those with pushchairs. The brief required a solution that was largely passive — minimising reliance on active mechanisms — while being practical for integration into real-world railway infrastructure.</p>
+
+  <div class="highlight-box">
+    <p>🏆 Awarded 1st place by the judging panel for creativity and a clean, functional working prototype.</p>
+  </div>
+
+  <h2>Design Concept</h2>
+  <p>The team developed a door-integrated rotating platform that deploys automatically during door opening. The mechanism leverages the door's own motion to drive the gap-bridging element, requiring no additional actuation or power source. This passive approach enhances reliability and reduces maintenance requirements.</p>
+  <p>The rotating platform was sized to bridge the most common platform–train gap dimensions and designed to retract fully and safely when the door closes, ensuring no interference with train movement.</p>
+
+  <h2>Role & Responsibilities</h2>
+  <ul>
+    <li>Served as Team Leader, taking ownership of concept development, decision-making, and task allocation</li>
+    <li>Led ideation sessions, evaluating multiple concepts against criteria including passivity, safety, and manufacturability</li>
+    <li>Drove the prototyping process, coordinating the use of 3D printing and wood workshop facilities</li>
+    <li>Produced a working prototype demonstrating the deployment and retraction mechanism</li>
+    <li>Presented the solution to the judging panel, communicating the design rationale clearly</li>
+  </ul>
+
+  <h2>Prototype Development</h2>
+  <p>The prototype was produced using a combination of 3D printed components for the mechanical linkages and platform elements, and timber for the door frame representation. The working model successfully demonstrated the cam-driven rotation and the smooth deployment sequence when the door was opened.</p>
+  <p>The judges highlighted the cleanliness of the prototype build and the creativity of the passive mechanism as key differentiators over competing entries.</p>
+
+</div>
+
+<footer>
+  <p>Abrisam Hafiz Bin Azhar &nbsp;·&nbsp; MEng Mechanical Engineering &nbsp;·&nbsp; University of Sheffield</p>
+</footer>
+
+</body>
+</html>

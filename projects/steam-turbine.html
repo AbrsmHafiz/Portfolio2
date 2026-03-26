@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Steam Turbine Blade Tapping Test | Abrisam Hafiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --black: #111111; --dark: #2a2a2a; --mid: #666666; --light: #aaaaaa; --rule: #e0e0e0; --bg: #ffffff; --accent: #1a3a5c; --accent-light: #e8eef4; }
+    body { font-family: 'Source Sans 3', sans-serif; background: var(--bg); color: var(--black); font-size: 16px; line-height: 1.6; }
+    nav { position: sticky; top: 0; z-index: 100; background: #fff; border-bottom: 1px solid var(--rule); padding: 0 48px; display: flex; align-items: center; justify-content: space-between; height: 60px; }
+    .nav-brand { font-family: 'Playfair Display', serif; font-size: 1.05rem; font-weight: 600; color: var(--black); text-decoration: none; }
+    .nav-back { font-size: 0.82rem; font-weight: 500; color: var(--mid); text-decoration: none; letter-spacing: 0.06em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-back:hover { color: var(--accent); }
+    .project-header { max-width: 860px; margin: 0 auto; padding: 64px 48px 48px; border-bottom: 1px solid var(--rule); }
+    .project-tag { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 16px; }
+    .project-header h1 { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; line-height: 1.15; color: var(--black); margin-bottom: 20px; }
+    .project-header p.lead { font-size: 1.05rem; color: var(--mid); max-width: 600px; font-weight: 300; line-height: 1.8; margin-bottom: 32px; }
+    .project-meta { display: flex; gap: 40px; flex-wrap: wrap; }
+    .meta-item dt { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--light); margin-bottom: 4px; }
+    .meta-item dd { font-size: 0.9rem; color: var(--dark); font-weight: 500; }
+    .content { max-width: 860px; margin: 0 auto; padding: 56px 48px; }
+    .content h2 { font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 600; color: var(--black); margin-bottom: 16px; margin-top: 48px; }
+    .content h2:first-child { margin-top: 0; }
+    .content p { font-size: 0.95rem; color: var(--mid); line-height: 1.8; margin-bottom: 16px; }
+    .content ul { list-style: none; padding: 0; margin-bottom: 24px; }
+    .content ul li { font-size: 0.93rem; color: var(--mid); line-height: 1.75; padding-left: 20px; position: relative; margin-bottom: 6px; }
+    .content ul li::before { content: '—'; position: absolute; left: 0; color: var(--rule); }
+    .highlight-box { background: var(--accent-light); border-left: 3px solid var(--accent); padding: 20px 24px; border-radius: 0 4px 4px 0; margin: 32px 0; }
+    .highlight-box p { color: var(--accent); font-weight: 500; margin: 0; font-size: 1rem; }
+    footer { border-top: 1px solid var(--rule); padding: 32px 48px; text-align: center; }
+    footer p { font-size: 0.82rem; color: var(--light); letter-spacing: 0.04em; }
+    @media (max-width: 640px) { nav, .project-header, .content, footer { padding-left: 24px; padding-right: 24px; } }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">Abrisam Hafiz</a>
+  <a href="../index.html" class="nav-back">← All Projects</a>
+</nav>
+
+<div class="project-header">
+  <p class="project-tag">Coursework</p>
+  <h1>Steam Turbine Blade<br>Tapping Test</h1>
+  <p class="lead">Assessed an in-service steam turbine blade through experimental vibration testing and computational modal analysis to determine suitability for recommissioning.</p>
+  <dl class="project-meta">
+    <div class="meta-item"><dt>Type</dt><dd>University Coursework</dd></div>
+    <div class="meta-item"><dt>Tools</dt><dd>MATLAB, Roving Hammer</dd></div>
+    <div class="meta-item"><dt>Methods</dt><dd>Modal Analysis, Curve Fitting</dd></div>
+    <div class="meta-item"><dt>Result</dt><dd>73% — 1st Class</dd></div>
+  </dl>
+</div>
+
+<div class="content">
+
+  <h2>Objective</h2>
+  <p>The task was to assess the structural and dynamic condition of an in-use steam turbine blade and provide a well-evidenced recommendation as to whether it was suitable for recommissioning. The approach centred on experimental modal analysis using an instrumented roving hammer test.</p>
+
+  <div class="highlight-box">
+    <p>🎓 Achieved a grade of 73% — 1st Class — for the analysis, reporting, and recommendations produced.</p>
+  </div>
+
+  <h2>Experimental Method</h2>
+  <p>A roving hammer test was performed on the turbine blade, where an instrumented impact hammer was used to excite the structure at multiple defined locations while measuring the dynamic response. This non-destructive testing technique allows the frequency response functions (FRFs) of the structure to be characterised without disassembly.</p>
+  <ul>
+    <li>Collected 8 datasets across 10 measurement locations on the blade surface</li>
+    <li>Response signals were acquired and processed to obtain frequency response functions</li>
+    <li>Data collection followed a systematic roving pattern to ensure spatial coverage</li>
+  </ul>
+
+  <h2>Analysis & Results</h2>
+  <p>All data processing and analysis was conducted in MATLAB. Curve fitting models were applied to the FRF data to extract key modal parameters, including natural frequencies, damping ratios, and mode shapes.</p>
+  <ul>
+    <li>Extracted natural frequencies and damping ratios using rational fraction polynomial curve fitting</li>
+    <li>Constructed and visualised mode shapes from the extracted modal data</li>
+    <li>Computed Auto Modal Assurance Criterion (MAC) and Cross MAC matrices to evaluate mode shape consistency and orthogonality</li>
+    <li>Compared extracted frequencies against known operational excitation frequencies to assess risk of resonance</li>
+  </ul>
+  <p>The MAC analysis confirmed good separation between the dominant mode shapes, providing confidence in the quality of the extracted modal parameters. The results were synthesised into a structured engineering recommendation regarding recommissioning suitability.</p>
+
+  <h2>Key Skills Demonstrated</h2>
+  <ul>
+    <li>Hands-on experimental structural dynamics testing</li>
+    <li>MATLAB signal processing and modal parameter extraction</li>
+    <li>Technical report writing to professional engineering standards</li>
+    <li>Interpretation of vibration data to support engineering decisions</li>
+  </ul>
+
+</div>
+
+<footer>
+  <p>Abrisam Hafiz Bin Azhar &nbsp;·&nbsp; MEng Mechanical Engineering &nbsp;·&nbsp; University of Sheffield</p>
+</footer>
+
+</body>
+</html>
